@@ -1,0 +1,298 @@
+@media screen and (max-width: 1500px)
+{
+    .errorContainer p
+    {
+        font-size: 20px;
+    }
+    .errorContainer i
+    {
+        margin-top: 50px;
+    }
+    #loginContainer, #signUpContainer
+    {
+        width: 30%;
+    }
+    .logout
+    {
+        width: 25%;
+    }
+    #product
+    {
+        justify-content: space-around;
+        padding-inline: 30px;
+    }
+    #home div{
+        height: 80%;
+    }
+    #home div h1{
+        font-size: 50px;
+    }
+    #home .feature
+    {
+        font-size: 50px;
+    }
+    #product .phones
+    {
+        width: 30%;
+        margin-inline: 0px;
+        padding: 50px 20px;
+        height: 70%;
+    }
+    #product .phones h1
+    {
+        font-size: 25px;
+    }
+    #product .phones img{
+        width: 290px;
+        height: auto;
+    }
+    .phoneContainer
+    {
+        width: 70%;
+        margin-top: 15%;
+    }
+    .aboutContainer .left
+    {
+        font-size: 20px; 
+        width: 40%;
+    }
+    .aboutContainer .right
+    {
+        width: 60%;
+    }
+    .aboutContainer .right p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:1200px), screen and (max-height: 800px)
+{
+    #loginContainer, #signUpContainer{
+        width: 300px;
+    }
+    .header .logout
+    {
+        width: 30%;
+    }
+    #product .phones img{
+        width: 250px;
+        height: auto;
+    }
+    #product .phone .phoneContainer .info div img{
+        width: 210px;
+        height: auto;
+    }
+    #about .aboutContainer .right h1{
+        font-size: 25px;
+    }
+    #about .aboutContainer .right p{
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 900px), screen and (max-height: 700px)
+{
+    .header
+    {
+        justify-content: space-between;
+        padding-inline: 10px;
+    }
+    .header i
+    {
+        display: flex;
+    }
+    .header i:hover
+    {
+        transform: scale(1.1);
+    }
+    .header i:active
+    {
+        transform: scale(0.9);
+    }
+    #menu .icon{
+        display: flex ;
+        position: relative;
+    }
+    .header ul
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(56, 56, 56, 0.9);
+        width: 50%;
+        height: 100vh;
+        padding-top: 10px;
+        padding-bottom: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        display: none;
+    }
+    .header ul li a, .header ul li a:link, .header ul li a:visited 
+    {
+        font-size: larger;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 100%;
+        padding-left: 5px;
+    }
+    .header #loginBtn
+    {
+        padding: 7px;
+    }
+    .icon a:hover
+    {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .header .logout
+    {
+        width: 45%;
+    }
+    #loginContainer, #signUpContainer
+    {
+        width: 350px;
+        height: 400px;
+    }
+    .errorContainer
+    {
+        width: 400px;
+    }
+    #home .feature{
+        font-size: 40px;
+    }
+    #home div{
+        height: 85%;
+        width: 90%;
+        font-size: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #home div h1{
+        font-size: 40px;
+    }
+    #home div p{
+        line-height: 20px;
+    }
+    #product
+    {
+        flex-direction: column;
+    }
+    #product .phones
+    {
+        height: 30%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #product .phones h1{
+        font-size: x-large;
+    }
+    #product .phones img{
+        width: auto;
+        height: 150px;
+    }
+    #product .phone .phoneContainer{
+        width: 550px;
+        height: 95%;
+        margin-top: 10px;
+    }
+    .phoneContainer .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+    .phoneContainer .info img{
+        width: 200px;
+        height: auto;
+    }
+    .phoneContainer .info div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        padding: 10px;
+    }
+    .phoneContainer .info div h1{
+        font-size: x-large;
+    }
+    .phoneContainer .info div img{
+        width: 210px;
+        height: auto;
+    }
+    .phoneContainer .btn{
+        height: 10%;
+    }
+    #about .aboutContainer
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        justify-content: space-between;
+    }
+    .aboutContainer .left{
+        width: 100%;
+        height: 20%;
+        margin-top: 0px;
+        justify-content: start;
+    }
+    .aboutContainer .right
+    {
+        width: 100%;
+        height: 80%;
+    }
+    #about .right p{
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    #loginContainer, #signUpContainer
+    {
+        width: 350px;
+    }
+    .header .logout{
+        width: 55%;
+    }
+    #home div{
+        padding-inline: 5px;
+    }
+    #home div h1{
+        font-size: 30px;
+    }
+    #home .feature
+    {
+        font-size: 30px;
+    }
+    #product .phone .phoneContainer{
+        width: 450px;
+        height: 90%;
+        margin-top: 30px;
+    
+    }
+    #product .phone .phoneContainer .info div img{
+        width: 300px;
+        height: auto;
+    }
+    #about .aboutContainer .left
+    {
+        height: 10%;
+    }
+    #about .aboutContainer .right{
+        height: 90%;
+    }
+    #about .aboutContainer .left p{
+        font-size: 15px;
+        font-weight: 5px;
+    }
+    #about .aboutContainer .right h1{
+        font-size: 20px;
+    }
+    #about .aboutContainer .right p{
+        line-height: 18px;
+    }
+}
